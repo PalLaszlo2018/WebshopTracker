@@ -26,7 +26,7 @@ namespace WebshopTracker.Repository
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.ApplyConfiguration(new DBPacketConfig());
+            // modelBuilder.ApplyConfiguration(new DBPacketConfig()); TODO
         }
     }
 }
