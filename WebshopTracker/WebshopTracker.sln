@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopTracker", "WebshopTracker.csproj", "{0470D5C5-B3DB-4AB7-8DAD-4270F7388D56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopTracker.Api", "WebshopTracker.Api.csproj", "{0470D5C5-B3DB-4AB7-8DAD-4270F7388D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopTracker.Service", "..\WebshopTracker.Service\WebshopTracker.Service.csproj", "{77508ED8-DA0A-41B2-9D2A-3B5F918B2812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopTracker.Service.Abstractions", "..\WebshopTracker.Service.Abstractions\WebshopTracker.Service.Abstractions.csproj", "{BF3C3EB3-252F-412A-8144-616FF21A2824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopTracker.Repository", "..\WebshopTracker.Repository\WebshopTracker.Repository.csproj", "{4412C3A3-0CB8-46D7-9C51-6F3CD9506C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopTracker.Repository.Abstractions", "..\WebshopTracker.Repository.Abstractions\WebshopTracker.Repository.Abstractions.csproj", "{92D7D3AC-FF48-42DC-89E4-9508CEA83F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopTracker.Domain", "..\WebshopTracker.Domain\WebshopTracker.Domain.csproj", "{302536C0-0D44-44E3-92BB-BD128DA7CB3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{0470D5C5-B3DB-4AB7-8DAD-4270F7388D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0470D5C5-B3DB-4AB7-8DAD-4270F7388D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0470D5C5-B3DB-4AB7-8DAD-4270F7388D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77508ED8-DA0A-41B2-9D2A-3B5F918B2812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77508ED8-DA0A-41B2-9D2A-3B5F918B2812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77508ED8-DA0A-41B2-9D2A-3B5F918B2812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77508ED8-DA0A-41B2-9D2A-3B5F918B2812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3C3EB3-252F-412A-8144-616FF21A2824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3C3EB3-252F-412A-8144-616FF21A2824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3C3EB3-252F-412A-8144-616FF21A2824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3C3EB3-252F-412A-8144-616FF21A2824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4412C3A3-0CB8-46D7-9C51-6F3CD9506C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4412C3A3-0CB8-46D7-9C51-6F3CD9506C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4412C3A3-0CB8-46D7-9C51-6F3CD9506C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4412C3A3-0CB8-46D7-9C51-6F3CD9506C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D7D3AC-FF48-42DC-89E4-9508CEA83F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D7D3AC-FF48-42DC-89E4-9508CEA83F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D7D3AC-FF48-42DC-89E4-9508CEA83F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D7D3AC-FF48-42DC-89E4-9508CEA83F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302536C0-0D44-44E3-92BB-BD128DA7CB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302536C0-0D44-44E3-92BB-BD128DA7CB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302536C0-0D44-44E3-92BB-BD128DA7CB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302536C0-0D44-44E3-92BB-BD128DA7CB3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

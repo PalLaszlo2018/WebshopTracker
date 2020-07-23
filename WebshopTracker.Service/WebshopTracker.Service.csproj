@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebshopTracker.Domain\WebshopTracker.Domain.csproj" />
+    <ProjectReference Include="..\WebshopTracker.Repository.Abstractions\WebshopTracker.Repository.Abstractions.csproj" />
+    <ProjectReference Include="..\WebshopTracker.Service.Abstractions\WebshopTracker.Service.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
